@@ -53,4 +53,16 @@ python -m pip install --upgrade pip
 deactivate
 ```
 
+## Installation 
 
+### 1. install requirements
+
+```bash 
+pip install -r requirements.txt
+```
+### 2. add your configration 
+
+```bash 
+cp .env.example .env
+```
+**update your .env file with your cridintials**
