@@ -66,3 +66,9 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 **update your .env file with your cridintials**
+
+## Run project 
+
+```bash 
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+```
